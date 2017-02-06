@@ -12,6 +12,8 @@
 		5F34FF211E42167C00784278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F34FF1F1E42167C00784278 /* Main.storyboard */; };
 		5F34FF231E42167C00784278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F34FF221E42167C00784278 /* Assets.xcassets */; };
 		5F34FF261E42167C00784278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F34FF241E42167C00784278 /* LaunchScreen.storyboard */; };
+		5F34FF2E1E42395B00784278 /* CalcState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34FF2D1E42395B00784278 /* CalcState.swift */; };
+		5F34FF301E423CB100784278 /* OpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34FF2F1E423CB100784278 /* OpState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5F34FF221E42167C00784278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F34FF251E42167C00784278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F34FF271E42167C00784278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F34FF2D1E42395B00784278 /* CalcState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcState.swift; sourceTree = "<group>"; };
+		5F34FF2F1E423CB100784278 /* OpState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		5F34FF1A1E42167C00784278 /* HackCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				5F34FF2D1E42395B00784278 /* CalcState.swift */,
 				5F34FF1B1E42167C00784278 /* AppDelegate.swift */,
 				5F34FF1D1E42167C00784278 /* ViewController.swift */,
 				5F34FF1F1E42167C00784278 /* Main.storyboard */,
 				5F34FF221E42167C00784278 /* Assets.xcassets */,
 				5F34FF241E42167C00784278 /* LaunchScreen.storyboard */,
 				5F34FF271E42167C00784278 /* Info.plist */,
+				5F34FF2F1E423CB100784278 /* OpState.swift */,
 			);
 			path = HackCalculator;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F34FF301E423CB100784278 /* OpState.swift in Sources */,
 				5F34FF1E1E42167C00784278 /* ViewController.swift in Sources */,
 				5F34FF1C1E42167C00784278 /* AppDelegate.swift in Sources */,
+				5F34FF2E1E42395B00784278 /* CalcState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
